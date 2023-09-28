@@ -18,10 +18,15 @@ struct ContentView: View {
                 CoverImageView()
                     .frame(height: 300)
                     .listRowInsets(EdgeInsets())
+                    .padding(.vertical)
                 
                 ForEach(animals) { animal in
-                    AnimalListItemView(animal: animal)
-                }
+                    NavigationLink {
+                        AnimalDetailView(animal: animal)
+                    } label: {
+                        AnimalListItemView(animal: animal)
+                    } //: NAVIGATION LINK
+                } //: FOR EACH
             } //: LIST
             .navigationTitle("Africa")
             .navigationBarTitleDisplayMode(.large)
