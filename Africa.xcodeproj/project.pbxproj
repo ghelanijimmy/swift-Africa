@@ -13,6 +13,8 @@
 		962A72322AC5D77A00BBD541 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A72312AC5D77A00BBD541 /* VideoListItemView.swift */; };
 		962A72342AC5DBDE00BBD541 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A72332AC5DBDE00BBD541 /* VideoPlayerView.swift */; };
 		962A72372AC5DCCC00BBD541 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A72362AC5DCCC00BBD541 /* VideoPlayerHelper.swift */; };
+		962A72392AC5E09500BBD541 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A72382AC5E09500BBD541 /* LocationModel.swift */; };
+		962A723B2AC5E8F700BBD541 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962A723A2AC5E8F700BBD541 /* MapAnnotationView.swift */; };
 		9675A1F02AC52C7000E03B4D /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675A1EF2AC52C7000E03B4D /* AnimalListItemView.swift */; };
 		9675A1F22AC52D9A00E03B4D /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675A1F12AC52D9A00E03B4D /* AnimalModel.swift */; };
 		969AAF102AC538470044C36C /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969AAF0F2AC538470044C36C /* AnimalDetailView.swift */; };
@@ -53,6 +55,8 @@
 		962A72312AC5D77A00BBD541 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		962A72332AC5DBDE00BBD541 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		962A72362AC5DCCC00BBD541 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		962A72382AC5E09500BBD541 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		962A723A2AC5E8F700BBD541 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		9675A1EF2AC52C7000E03B4D /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		9675A1F12AC52D9A00E03B4D /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		969AAF0F2AC538470044C36C /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				962599F22AC4C6A300049DBF /* CoverImageModel.swift */,
 				9675A1F12AC52D9A00E03B4D /* AnimalModel.swift */,
 				962A722F2AC5D6E800BBD541 /* VideoModel.swift */,
+				962A72382AC5E09500BBD541 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				969AAF192AC544330044C36C /* ExternalWeblinkView.swift */,
 				962A72312AC5D77A00BBD541 /* VideoListItemView.swift */,
 				962A72332AC5DBDE00BBD541 /* VideoPlayerView.swift */,
+				962A723A2AC5E8F700BBD541 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,9 +327,11 @@
 				962A72372AC5DCCC00BBD541 /* VideoPlayerHelper.swift in Sources */,
 				96A833532AC4488F00EA0F50 /* MapView.swift in Sources */,
 				969AAF182AC53FD00044C36C /* InsetMapView.swift in Sources */,
+				962A723B2AC5E8F700BBD541 /* MapAnnotationView.swift in Sources */,
 				96A833232AC4454600EA0F50 /* AfricaApp.swift in Sources */,
 				96A833512AC4487D00EA0F50 /* VideoListView.swift in Sources */,
 				962A72302AC5D6E800BBD541 /* VideoModel.swift in Sources */,
+				962A72392AC5E09500BBD541 /* LocationModel.swift in Sources */,
 				96A833552AC448A100EA0F50 /* GalleryView.swift in Sources */,
 				969AAF142AC53B230044C36C /* InsetGalleryView.swift in Sources */,
 				962599F62AC4C78700049DBF /* CodableBundleExtension.swift in Sources */,
